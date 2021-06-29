@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(224, 49, 104, 0.8);
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    width: 210px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.navbar-nav> li {
+    margin-right: 3rem;
+    padding-right: 3rem;
+    font-weight: bold;
+}
+.content h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 50px;
+    margin-top: 5em;
+    font-weight: bold;
+    position: relative;
+}
+.content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+}
+.img-fluid{
+    max-width: 120%;
+    position: relative;
+  
+}

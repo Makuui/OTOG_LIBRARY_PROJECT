@@ -1,0 +1,86 @@
+body {
+    background-color: rgba(224, 49, 104, 0.8);
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+.logo {
+    width: 210px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.navbar-nav> li {
+    margin-right: 3rem;
+    padding-right: 3rem;
+    font-weight: bold;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+.album{
+    padding: 120px;
+}
+
+  .site-footer
+{
+  background-color:rgba(224, 49, 104, 0.8);
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#ffffff;
+}
+
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color: white;
+}
+.site-footer a:hover
+{
+  color:wheat;
+  text-decoration:none;
+}
+
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+
+  font-size:14px
+}
